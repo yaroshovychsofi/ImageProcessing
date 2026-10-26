@@ -1,0 +1,19 @@
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+
+.dataset/
+Tools/Trainer/node_modules/
+Tools/Trainer/cache/
+Tools/Trainer/archive/
+Tools/Trainer/.idea/
+
+# Reports and generated report assets
+Report/
+*.doc
+*.docx
+*.pdf
+~$*

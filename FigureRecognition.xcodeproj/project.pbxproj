@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062ECE7F8EB53B79BDCBC8FE /* TriangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AA7A5D35B4D63ECAD07055 /* TriangleShape.swift */; };
+		095318963A64130F3845115B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = E4F117D363AF14DE47D151EA /* Assets */; };
+		09F212532CDE31881D07F2B7 /* RecognitionResultDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384256DBE51B86EAB6A8E6D3 /* RecognitionResultDocument.swift */; };
+		0B27FE608BD9645187C2DC83 /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEFE128A091B41030BD1CA8 /* HistoryScreen.swift */; };
+		0B702A9EF291A99A1AFD73F6 /* BottomSheetContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488E2F668A4094B1372C1E4 /* BottomSheetContainer.swift */; };
+		0C0393F4E4F44066019750C4 /* ImageSourceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE12D990D22D49122697043 /* ImageSourceSheet.swift */; };
+		169F8F06D1A1CC23E72C3077 /* calibration.json in Resources */ = {isa = PBXBuildFile; fileRef = 90C312B22D035EEC8F356722 /* calibration.json */; };
+		18D6A9AC129DD8D2F09C579A /* TrainingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B683DDA9D8E322D9FB63B /* TrainingScreen.swift */; };
+		1AC76781AE36F52C8FACBD6D /* OperationLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFD38E8767301200FF4324 /* OperationLog.swift */; };
+		1B632629E3679CBF5B886296 /* SheetActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B166179976704DE89CB1CDC6 /* SheetActionRow.swift */; };
+		1BCB5668CF21EA5756E728F1 /* ImagePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770FF842166AD3892E591ED /* ImagePreprocessor.swift */; };
+		2240558D7CCF59AF4C45E28F /* DetailSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E94E2988F135BD0A3C5792 /* DetailSectionTitle.swift */; };
+		2261708C1234970EC1CA732F /* square-drawn-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2090F805CD3736B6C4D08FC8 /* square-drawn-3.png */; };
+		2559BAFDD44DB2BDA91B8550 /* ImageImportFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C8FDCBAFA903848835E06 /* ImageImportFactory.swift */; };
+		26BAB0F9142A8F60AA107EF9 /* RecognitionDetailActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7B83DC2756B48340A32F9 /* RecognitionDetailActions.swift */; };
+		26E73F778EB864752DBCC820 /* brain-browser.js in Resources */ = {isa = PBXBuildFile; fileRef = 416153BD0ADEDA356E2CE632 /* brain-browser.js */; };
+		282FBB68D69EE1205403F809 /* MetadataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27A50055033FEE2A3A0C4C /* MetadataRow.swift */; };
+		2D3924533FFE5C07C9C5BCF5 /* circle-filled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2144FBD5FDC7CD93537762 /* circle-filled-1.png */; };
+		2F9762616F0116D4060B78D5 /* ExportFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1BB8DEE2DA14608F4DCE5A /* ExportFormat.swift */; };
+		3171F7AF0E0E3D14097786D2 /* ImageInfoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976B8FF1CA7438FD0A2B57CF /* ImageInfoSheet.swift */; };
+		38CFA410C97E600728C09385 /* FixtureValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3FD2133A40343D5CAF8BD /* FixtureValidator.swift */; };
+		392B069F707D962E45EA5B97 /* RecognitionDistributionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498935F0AC346BE5AD27DD80 /* RecognitionDistributionCard.swift */; };
+		39B9767B6DB9B5BFD44ABE34 /* CustomImageOptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3D576ABB5D1822CFD0D3B /* CustomImageOptionCard.swift */; };
+		39CE1D05FCBF38767133EC59 /* RecognitionDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F818C0B09AD52431F9E1D0C0 /* RecognitionDetailScreen.swift */; };
+		3A085D17FA960CB893697771 /* SelectedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C4E00D0E348A6FE92A233 /* SelectedImage.swift */; };
+		42AEE4F77837CD968FEAF5AB /* InputModePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829BECEA93E1971CA899490 /* InputModePicker.swift */; };
+		44E5F57D84A6B6692C74635E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE0391DA6F67E686EC25F9 /* AppTheme.swift */; };
+		47BC7ED7D82155A4B21D8847 /* circle-drawn-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4840294A81E36CB0B25842 /* circle-drawn-3.png */; };
+		49F7F71C41115D9A1D77CAF7 /* triangle-filled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D963E6176E094C5C46244BC /* triangle-filled-2.png */; };
+		4AB78D28FA4B46D679AD86A6 /* triangle-drawn-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D695DEA0965B6088E1261AE9 /* triangle-drawn-3.png */; };
+		4C5224A761A83406C6681FB8 /* RecognitionOverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AE2C72E1C7140CC9575C56 /* RecognitionOverlaysView.swift */; };
+		4FD8817B32C6D9FDBC55F12C /* RecognitionResultExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B425543D4797101773B8E9 /* RecognitionResultExporter.swift */; };
+		519BBB9A6AEFF3CEDEE2C135 /* NetworkInputGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD7DAFDBAA01CD9BF9A84D /* NetworkInputGridView.swift */; };
+		54166E84485B2D6A4114C6DB /* square-drawn-0.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0E13AD90F7BCF8DEFAA19E /* square-drawn-0.png */; };
+		54F257F9F38123D5FBED7306 /* square-drawn-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F76B38AF0830B88335F33D /* square-drawn-2.png */; };
+		5BC2B8F8F3A780585AC94918 /* RecognitionExportCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321D467A94889088F9DC6A14 /* RecognitionExportCard.swift */; };
+		5CF310F5373B0878CD74D990 /* RecognitionRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8554F3741C1C2CEFBF77DB /* RecognitionRoute.swift */; };
+		5DB4778252CD171FFF07325F /* FullScreenImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD528CE55FAC6BE98EEB05 /* FullScreenImageView.swift */; };
+		5ED815D0F69AB72C11DD5031 /* RecognitionResultSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7504ED0F86E870616923F100 /* RecognitionResultSummaryCard.swift */; };
+		6046AE1B27466300A0169C27 /* RecognitionScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD56BC3B03972DAEFC57F38 /* RecognitionScore.swift */; };
+		669F7A42F3F3E908D79EAFEB /* RecognitionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0823D01D7240FE222551F1B1 /* RecognitionRecord.swift */; };
+		676E8489F918A301234F0B44 /* RecognitionDateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA5B4A5D20B5CAFC6843F /* RecognitionDateLabel.swift */; };
+		6BA390B9D97D714CB585E2A5 /* RecognitionResultSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F14CB4DA2D37DA38B31F1 /* RecognitionResultSheet.swift */; };
+		7318D71A89443BCEAFF77275 /* circle-filled-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB9799CEF21E1E3E1AAAC57 /* circle-filled-0.png */; };
+		74D46A8791674368184A805D /* circle-drawn-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D52D054975F62C87E25D0C /* circle-drawn-4.png */; };
+		769D8533BE266F43E205BC4F /* circle-drawn-0.png in Resources */ = {isa = PBXBuildFile; fileRef = C3780CC4EF972BB3FF83FA83 /* circle-drawn-0.png */; };
+		774EFF8CA0A217CDAD6E34CF /* triangle-drawn-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 708B75FDFC5F703456206B3E /* triangle-drawn-2.png */; };
+		791B535B6D69A80C3853104C /* square-filled-4.png in Resources */ = {isa = PBXBuildFile; fileRef = E9586F01680EF38F264D56BE /* square-filled-4.png */; };
+		7A5380CC088659ADFFC41E1A /* ParallelFeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B36B87C7B11D3F4E7D7AD /* ParallelFeatureExtractor.swift */; };
+		7C6FD2485ABBFB052256CCDE /* circle-filled-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB9F5FCDEA43C97552F867C /* circle-filled-4.png */; };
+		7D069FB3C7C09E10D35C6EE8 /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FC537A5DCC36ED8DA0358 /* HistoryRow.swift */; };
+		7D97C6F9DD28D53EAF7B504A /* RecognitionDetailsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861BDCA861443710157EDCA /* RecognitionDetailsCard.swift */; };
+		7FEEA3D8E68C8C4B24CF52C5 /* triangle-filled-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 066FC9D8FB3396046140B266 /* triangle-filled-3.png */; };
+		8031E8E77112520A776BA48B /* triangle-drawn-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC3D80119030446C9B7A41 /* triangle-drawn-1.png */; };
+		80616122C274A77A8CCA27D1 /* ConfidenceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42789898A59D892DAF0FFC2 /* ConfidenceText.swift */; };
+		820FAB942C72B71EE471D73A /* square-filled-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D13BE4AAECBD3DD77D83D37 /* square-filled-0.png */; };
+		82C3664159C03A23CC68A956 /* circle-filled-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F41FF7675261C8051C6D8A /* circle-filled-3.png */; };
+		8544EC9D7F76C6DDD5D40F78 /* RecognizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656ABC9935F058843FA137DC /* RecognizeButton.swift */; };
+		87404447183DCE5D6D59B6DB /* square-drawn-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE64EF6A8EAC38C29B24ED /* square-drawn-1.png */; };
+		8AD04E155084A9724688CFDB /* BMPEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7013131126A39F3735498C /* BMPEncoder.swift */; };
+		8E4544EFE7F3F970AC68608C /* BottomSheetCancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F2B484B5CD17103B348D2 /* BottomSheetCancelButton.swift */; };
+		8E7CF2D07271C138C2E3FCA9 /* LogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10A9952DEEA0767FDE5DC2 /* LogScreen.swift */; };
+		8EE0D60EA35F4914B2353A8D /* RecognitionExportModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686AA5001A3DF946ED67C170 /* RecognitionExportModifier.swift */; };
+		903564C383447A59C923AD2A /* triangle-filled-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DC261B78AA66A02631DEB0 /* triangle-filled-4.png */; };
+		909AE0BB9373F6505B56AEF4 /* metrics.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F7FF0BB4F7C1D102BC84EA4 /* metrics.json */; };
+		91B240C47F7342C691582DE8 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 58B5EDA0EBB9C463C753FA29 /* model.json */; };
+		9756CF1A4772582D09A609EC /* InputMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E225ABB2A40C4C7B6066EDBB /* InputMode.swift */; };
+		A2035DCF8AF0B186F94A135F /* RecognitionDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A84BF2821527E85EBFCC658 /* RecognitionDestinationView.swift */; };
+		A9665EF132D30B1A2EACE6AF /* AboutSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A199F49D2CC7225F84A7BD /* AboutSheet.swift */; };
+		AC423A2105AA514901825E4F /* triangle-filled-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E87F4BE63DF0722DDDF0A2A /* triangle-filled-0.png */; };
+		AF1C8265C7E9614CBA39F9EC /* FigureClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB25AD780B58B8D2587AEB /* FigureClass.swift */; };
+		B1243B10C1327A61B83C54E8 /* square-filled-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 60701AE0E22938E50AA14F9C /* square-filled-3.png */; };
+		B1E30337706698B4E8D9A5D4 /* FileDetailsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19BDC0137FA583F5F4CE3EF /* FileDetailsCard.swift */; };
+		B26F657B517057F7E38C8CF2 /* RecognitionHistoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405B099305E6671E0A45428 /* RecognitionHistoryCache.swift */; };
+		B4FB9619A079640A0DF51877 /* FileMetadataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0E3F9CCF73706A8620891 /* FileMetadataView.swift */; };
+		B5766294F52CE602A37F9199 /* SampleRasterizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AA009384EE5EA3F2F466C /* SampleRasterizer.swift */; };
+		B66C554431000E222368D3DF /* RecognitionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045A2C6CBA8A8DF606AC702 /* RecognitionStore.swift */; };
+		B678D6F4EF129DDE585C7094 /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECD4F7EC4FE69DCB95F17EC /* FeatureExtractor.swift */; };
+		B7550C55A8C59A4AEE884182 /* RecognitionScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CACD53827DB8E354873371 /* RecognitionScoreRow.swift */; };
+		B818D186CD197EB3C86D91C5 /* fixtures.json in Resources */ = {isa = PBXBuildFile; fileRef = F5337F16CC59F0F9666B5F3E /* fixtures.json */; };
+		B87A0BA62F652DA9C9DDBB29 /* FigureRecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210CECE392D7D150B5C2074 /* FigureRecognitionApp.swift */; };
+		BB8753784B3B2C66A9D32BA0 /* square-filled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2959D5BB641C6A27667D563D /* square-filled-1.png */; };
+		BC44B2B780C0A85826573424 /* square-filled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC1791AB92DC53E9001CC95 /* square-filled-2.png */; };
+		C2FDCF9806F1145E22793B19 /* triangle-filled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D342BB5741A426DC2BF8FA9 /* triangle-filled-1.png */; };
+		C3F02ACF7B051C5DAFD0BC30 /* RecognitionDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A33C71275C9A90B024A08B /* RecognitionDistributionView.swift */; };
+		C4F74D3E3E45FAF30FC947C5 /* circle-drawn-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F8094FE37C65BD9D0B60E6 /* circle-drawn-2.png */; };
+		C676713C3393C8A4A633DD3D /* SampleOptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F227AB65B38E9D0A17757 /* SampleOptionCard.swift */; };
+		CB9CAFC8C233A748CC2AAE40 /* square-drawn-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DAE9C47A21B1A5BA3959C0 /* square-drawn-4.png */; };
+		CDA0067BC49E8E790E100EFF /* TrainingDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D357003BE230F5443CF42 /* TrainingDataset.swift */; };
+		CEE70D387C0F63595B400FAE /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5552AB5F1E794E41D6E2158 /* SelectedImageView.swift */; };
+		CF9FA4925B2D2E2030777C5A /* ResultActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FC7B3EB2442C3D4E2C8ACE /* ResultActionButtons.swift */; };
+		D18678FC8B8782033C1CC455 /* triangle-drawn-4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7D57885CF08C362D082DCB /* triangle-drawn-4.png */; };
+		D21FC1C7C743BE0919517B47 /* BrainNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D3EB090E5F2EF1C83F9E /* BrainNetwork.swift */; };
+		D29F9FA4D26E931861EBBD65 /* BottomSheetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CB696A3940761FAA377DB6 /* BottomSheetHeader.swift */; };
+		DD5EBFFE676C520BBAE2B471 /* RecognitionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB4BE21857E43FF254ACD1F /* RecognitionScreen.swift */; };
+		DEFE298C4237C902610A5743 /* triangle-drawn-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 02ECF4F70FF339623DDA0AC2 /* triangle-drawn-0.png */; };
+		DFEBA7B9BDD5400BCE63053A /* QuickExamplesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E5640878D3701142F85B5 /* QuickExamplesRow.swift */; };
+		E15734BF1519617B0017AE9A /* FigureSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA2338193FBE777C4CA2550 /* FigureSymbolView.swift */; };
+		E2F6B956AF7680434F788EF4 /* BrainJSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED902142B05FF70ACDBCF2 /* BrainJSEngine.swift */; };
+		EBA2386EFE8B9C02BC5815A0 /* circle-drawn-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E2733EDA99987F2B5F7CC /* circle-drawn-1.png */; };
+		F1333048C91BDEB03789AF22 /* EmptyImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9571CABD7E4051F2CF96AF4 /* EmptyImagePreviewView.swift */; };
+		F18E406599EF0D33EA6FD6B9 /* TrainingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4512FBB7D2092E66C6E11F8 /* TrainingStore.swift */; };
+		F47696D9F8AD4E737C536500 /* circle-filled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D16AC0B14E84AD3F93BB27 /* circle-filled-2.png */; };
+		FAFD3D65F095644502557F42 /* ImagePreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CABD3720294BDD786E67E /* ImagePreviewCard.swift */; };
+		FF653132041A36CE19364820 /* FigureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC7D6B55E12316CFD190E7 /* FigureRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00AE2C72E1C7140CC9575C56 /* RecognitionOverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionOverlaysView.swift; sourceTree = "<group>"; };
+		01A33C71275C9A90B024A08B /* RecognitionDistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionDistributionView.swift; sourceTree = "<group>"; };
+		02ECF4F70FF339623DDA0AC2 /* triangle-drawn-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-drawn-0.png"; sourceTree = "<group>"; };
+		0405B099305E6671E0A45428 /* RecognitionHistoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionHistoryCache.swift; sourceTree = "<group>"; };
+		066FC9D8FB3396046140B266 /* triangle-filled-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-filled-3.png"; sourceTree = "<group>"; };
+		0823D01D7240FE222551F1B1 /* RecognitionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionRecord.swift; sourceTree = "<group>"; };
+		0829BECEA93E1971CA899490 /* InputModePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputModePicker.swift; sourceTree = "<group>"; };
+		09AFD38E8767301200FF4324 /* OperationLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationLog.swift; sourceTree = "<group>"; };
+		0B6E2733EDA99987F2B5F7CC /* circle-drawn-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-drawn-1.png"; sourceTree = "<group>"; };
+		13834B34B87C82C053C5222C /* FigureRecognition.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FigureRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B425543D4797101773B8E9 /* RecognitionResultExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionResultExporter.swift; sourceTree = "<group>"; };
+		13CACD53827DB8E354873371 /* RecognitionScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionScoreRow.swift; sourceTree = "<group>"; };
+		182AA009384EE5EA3F2F466C /* SampleRasterizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRasterizer.swift; sourceTree = "<group>"; };
+		18ED902142B05FF70ACDBCF2 /* BrainJSEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainJSEngine.swift; sourceTree = "<group>"; };
+		1B4840294A81E36CB0B25842 /* circle-drawn-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-drawn-3.png"; sourceTree = "<group>"; };
+		1DE3FD2133A40343D5CAF8BD /* FixtureValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureValidator.swift; sourceTree = "<group>"; };
+		2090F805CD3736B6C4D08FC8 /* square-drawn-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-drawn-3.png"; sourceTree = "<group>"; };
+		2210CECE392D7D150B5C2074 /* FigureRecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureRecognitionApp.swift; sourceTree = "<group>"; };
+		229B36B87C7B11D3F4E7D7AD /* ParallelFeatureExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelFeatureExtractor.swift; sourceTree = "<group>"; };
+		229D357003BE230F5443CF42 /* TrainingDataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingDataset.swift; sourceTree = "<group>"; };
+		2959D5BB641C6A27667D563D /* square-filled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-filled-1.png"; sourceTree = "<group>"; };
+		29DC7D6B55E12316CFD190E7 /* FigureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureRecognizer.swift; sourceTree = "<group>"; };
+		2C7013131126A39F3735498C /* BMPEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMPEncoder.swift; sourceTree = "<group>"; };
+		2CFC3D80119030446C9B7A41 /* triangle-drawn-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-drawn-1.png"; sourceTree = "<group>"; };
+		2E87F4BE63DF0722DDDF0A2A /* triangle-filled-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-filled-0.png"; sourceTree = "<group>"; };
+		30F41FF7675261C8051C6D8A /* circle-filled-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-filled-3.png"; sourceTree = "<group>"; };
+		321D467A94889088F9DC6A14 /* RecognitionExportCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionExportCard.swift; sourceTree = "<group>"; };
+		32AA7A5D35B4D63ECAD07055 /* TriangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleShape.swift; sourceTree = "<group>"; };
+		37FD528CE55FAC6BE98EEB05 /* FullScreenImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageView.swift; sourceTree = "<group>"; };
+		384256DBE51B86EAB6A8E6D3 /* RecognitionResultDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionResultDocument.swift; sourceTree = "<group>"; };
+		416153BD0ADEDA356E2CE632 /* brain-browser.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "brain-browser.js"; sourceTree = "<group>"; };
+		498935F0AC346BE5AD27DD80 /* RecognitionDistributionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionDistributionCard.swift; sourceTree = "<group>"; };
+		49D52D054975F62C87E25D0C /* circle-drawn-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-drawn-4.png"; sourceTree = "<group>"; };
+		4BE12D990D22D49122697043 /* ImageSourceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSourceSheet.swift; sourceTree = "<group>"; };
+		4E2144FBD5FDC7CD93537762 /* circle-filled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-filled-1.png"; sourceTree = "<group>"; };
+		4F7FF0BB4F7C1D102BC84EA4 /* metrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metrics.json; sourceTree = "<group>"; };
+		55DAE9C47A21B1A5BA3959C0 /* square-drawn-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-drawn-4.png"; sourceTree = "<group>"; };
+		58B5EDA0EBB9C463C753FA29 /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
+		5B4F2B484B5CD17103B348D2 /* BottomSheetCancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetCancelButton.swift; sourceTree = "<group>"; };
+		60701AE0E22938E50AA14F9C /* square-filled-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-filled-3.png"; sourceTree = "<group>"; };
+		656ABC9935F058843FA137DC /* RecognizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeButton.swift; sourceTree = "<group>"; };
+		683B683DDA9D8E322D9FB63B /* TrainingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingScreen.swift; sourceTree = "<group>"; };
+		686AA5001A3DF946ED67C170 /* RecognitionExportModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionExportModifier.swift; sourceTree = "<group>"; };
+		6A84BF2821527E85EBFCC658 /* RecognitionDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionDestinationView.swift; sourceTree = "<group>"; };
+		6BD56BC3B03972DAEFC57F38 /* RecognitionScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionScore.swift; sourceTree = "<group>"; };
+		6D342BB5741A426DC2BF8FA9 /* triangle-filled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-filled-1.png"; sourceTree = "<group>"; };
+		6D963E6176E094C5C46244BC /* triangle-filled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-filled-2.png"; sourceTree = "<group>"; };
+		6F4E5640878D3701142F85B5 /* QuickExamplesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickExamplesRow.swift; sourceTree = "<group>"; };
+		7045A2C6CBA8A8DF606AC702 /* RecognitionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionStore.swift; sourceTree = "<group>"; };
+		708B75FDFC5F703456206B3E /* triangle-drawn-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-drawn-2.png"; sourceTree = "<group>"; };
+		7488E2F668A4094B1372C1E4 /* BottomSheetContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetContainer.swift; sourceTree = "<group>"; };
+		74CB696A3940761FAA377DB6 /* BottomSheetHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetHeader.swift; sourceTree = "<group>"; };
+		7504ED0F86E870616923F100 /* RecognitionResultSummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionResultSummaryCard.swift; sourceTree = "<group>"; };
+		75F8094FE37C65BD9D0B60E6 /* circle-drawn-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-drawn-2.png"; sourceTree = "<group>"; };
+		76C3D576ABB5D1822CFD0D3B /* CustomImageOptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageOptionCard.swift; sourceTree = "<group>"; };
+		76FC7B3EB2442C3D4E2C8ACE /* ResultActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultActionButtons.swift; sourceTree = "<group>"; };
+		7A27A50055033FEE2A3A0C4C /* MetadataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataRow.swift; sourceTree = "<group>"; };
+		7C1BB8DEE2DA14608F4DCE5A /* ExportFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportFormat.swift; sourceTree = "<group>"; };
+		7DB9799CEF21E1E3E1AAAC57 /* circle-filled-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-filled-0.png"; sourceTree = "<group>"; };
+		7DB9F5FCDEA43C97552F867C /* circle-filled-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-filled-4.png"; sourceTree = "<group>"; };
+		8A6F14CB4DA2D37DA38B31F1 /* RecognitionResultSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionResultSheet.swift; sourceTree = "<group>"; };
+		8CC1791AB92DC53E9001CC95 /* square-filled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-filled-2.png"; sourceTree = "<group>"; };
+		8D13BE4AAECBD3DD77D83D37 /* square-filled-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-filled-0.png"; sourceTree = "<group>"; };
+		8D4CA5B4A5D20B5CAFC6843F /* RecognitionDateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionDateLabel.swift; sourceTree = "<group>"; };
+		90B0E3F9CCF73706A8620891 /* FileMetadataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMetadataView.swift; sourceTree = "<group>"; };
+		90C312B22D035EEC8F356722 /* calibration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = calibration.json; sourceTree = "<group>"; };
+		90E94E2988F135BD0A3C5792 /* DetailSectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSectionTitle.swift; sourceTree = "<group>"; };
+		976B8FF1CA7438FD0A2B57CF /* ImageInfoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfoSheet.swift; sourceTree = "<group>"; };
+		9861BDCA861443710157EDCA /* RecognitionDetailsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionDetailsCard.swift; sourceTree = "<group>"; };
+		99D16AC0B14E84AD3F93BB27 /* circle-filled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-filled-2.png"; sourceTree = "<group>"; };
+		9BAE64EF6A8EAC38C29B24ED /* square-drawn-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-drawn-1.png"; sourceTree = "<group>"; };
+		A1F76B38AF0830B88335F33D /* square-drawn-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-drawn-2.png"; sourceTree = "<group>"; };
+		A5A199F49D2CC7225F84A7BD /* AboutSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSheet.swift; sourceTree = "<group>"; };
+		A8CE0391DA6F67E686EC25F9 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		B166179976704DE89CB1CDC6 /* SheetActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetActionRow.swift; sourceTree = "<group>"; };
+		B2DC261B78AA66A02631DEB0 /* triangle-filled-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-filled-4.png"; sourceTree = "<group>"; };
+		B42789898A59D892DAF0FFC2 /* ConfidenceText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidenceText.swift; sourceTree = "<group>"; };
+		B54FC537A5DCC36ED8DA0358 /* HistoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRow.swift; sourceTree = "<group>"; };
+		B5552AB5F1E794E41D6E2158 /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
+		B9571CABD7E4051F2CF96AF4 /* EmptyImagePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyImagePreviewView.swift; sourceTree = "<group>"; };
+		BBB4BE21857E43FF254ACD1F /* RecognitionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionScreen.swift; sourceTree = "<group>"; };
+		BC0CABD3720294BDD786E67E /* ImagePreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewCard.swift; sourceTree = "<group>"; };
+		BC9F227AB65B38E9D0A17757 /* SampleOptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleOptionCard.swift; sourceTree = "<group>"; };
+		BE8554F3741C1C2CEFBF77DB /* RecognitionRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionRoute.swift; sourceTree = "<group>"; };
+		BECD4F7EC4FE69DCB95F17EC /* FeatureExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureExtractor.swift; sourceTree = "<group>"; };
+		C01C8FDCBAFA903848835E06 /* ImageImportFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageImportFactory.swift; sourceTree = "<group>"; };
+		C3780CC4EF972BB3FF83FA83 /* circle-drawn-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-drawn-0.png"; sourceTree = "<group>"; };
+		C4512FBB7D2092E66C6E11F8 /* TrainingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingStore.swift; sourceTree = "<group>"; };
+		CB10A9952DEEA0767FDE5DC2 /* LogScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogScreen.swift; sourceTree = "<group>"; };
+		CD0E13AD90F7BCF8DEFAA19E /* square-drawn-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-drawn-0.png"; sourceTree = "<group>"; };
+		D00C4E00D0E348A6FE92A233 /* SelectedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImage.swift; sourceTree = "<group>"; };
+		D0A7B83DC2756B48340A32F9 /* RecognitionDetailActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionDetailActions.swift; sourceTree = "<group>"; };
+		D19BDC0137FA583F5F4CE3EF /* FileDetailsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetailsCard.swift; sourceTree = "<group>"; };
+		D3CB25AD780B58B8D2587AEB /* FigureClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureClass.swift; sourceTree = "<group>"; };
+		D695DEA0965B6088E1261AE9 /* triangle-drawn-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-drawn-3.png"; sourceTree = "<group>"; };
+		D770FF842166AD3892E591ED /* ImagePreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreprocessor.swift; sourceTree = "<group>"; };
+		DCA2338193FBE777C4CA2550 /* FigureSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureSymbolView.swift; sourceTree = "<group>"; };
+		E225ABB2A40C4C7B6066EDBB /* InputMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMode.swift; sourceTree = "<group>"; };
+		E4F117D363AF14DE47D151EA /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = Figure/Resources/Assets; sourceTree = SOURCE_ROOT; };
+		E9586F01680EF38F264D56BE /* square-filled-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-filled-4.png"; sourceTree = "<group>"; };
+		ECDD7DAFDBAA01CD9BF9A84D /* NetworkInputGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInputGridView.swift; sourceTree = "<group>"; };
+		EEEFE128A091B41030BD1CA8 /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+		F2C5D3EB090E5F2EF1C83F9E /* BrainNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainNetwork.swift; sourceTree = "<group>"; };
+		F5337F16CC59F0F9666B5F3E /* fixtures.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fixtures.json; sourceTree = "<group>"; };
+		F818C0B09AD52431F9E1D0C0 /* RecognitionDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionDetailScreen.swift; sourceTree = "<group>"; };
+		FF7D57885CF08C362D082DCB /* triangle-drawn-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-drawn-4.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1DC8B9430D9A599C8B133B46 /* Figure */ = {
+			isa = PBXGroup;
+			children = (
+				4980F4FF8D603AD7F58381FE /* App */,
+				DEF6023B815290497A752B88 /* Design */,
+				699DA4C47755CD753A56A0D1 /* ML */,
+				EF793B9544D62FBCD83D9944 /* Models */,
+				C9DAB0BDC6A1F53F7ECBC129 /* Store */,
+				EC29DBCB573FA5C3B017B2F5 /* Views */,
+			);
+			path = Figure;
+			sourceTree = "<group>";
+		};
+		2DCF4FE93AC7DAE4BFD2E6A6 /* Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				76C3D576ABB5D1822CFD0D3B /* CustomImageOptionCard.swift */,
+				B9571CABD7E4051F2CF96AF4 /* EmptyImagePreviewView.swift */,
+				90B0E3F9CCF73706A8620891 /* FileMetadataView.swift */,
+				BC0CABD3720294BDD786E67E /* ImagePreviewCard.swift */,
+				0829BECEA93E1971CA899490 /* InputModePicker.swift */,
+				ECDD7DAFDBAA01CD9BF9A84D /* NetworkInputGridView.swift */,
+				6F4E5640878D3701142F85B5 /* QuickExamplesRow.swift */,
+				6A84BF2821527E85EBFCC658 /* RecognitionDestinationView.swift */,
+				00AE2C72E1C7140CC9575C56 /* RecognitionOverlaysView.swift */,
+				BBB4BE21857E43FF254ACD1F /* RecognitionScreen.swift */,
+				656ABC9935F058843FA137DC /* RecognizeButton.swift */,
+				BC9F227AB65B38E9D0A17757 /* SampleOptionCard.swift */,
+			);
+			path = Recognition;
+			sourceTree = "<group>";
+		};
+		47198621B5A32799D83C5FDC /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				CB10A9952DEEA0767FDE5DC2 /* LogScreen.swift */,
+				683B683DDA9D8E322D9FB63B /* TrainingScreen.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		4980F4FF8D603AD7F58381FE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2210CECE392D7D150B5C2074 /* FigureRecognitionApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55B2A78B52B098E9180FE20D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				90E94E2988F135BD0A3C5792 /* DetailSectionTitle.swift */,
+				D19BDC0137FA583F5F4CE3EF /* FileDetailsCard.swift */,
+				37FD528CE55FAC6BE98EEB05 /* FullScreenImageView.swift */,
+				B54FC537A5DCC36ED8DA0358 /* HistoryRow.swift */,
+				EEEFE128A091B41030BD1CA8 /* HistoryScreen.swift */,
+				8D4CA5B4A5D20B5CAFC6843F /* RecognitionDateLabel.swift */,
+				D0A7B83DC2756B48340A32F9 /* RecognitionDetailActions.swift */,
+				9861BDCA861443710157EDCA /* RecognitionDetailsCard.swift */,
+				F818C0B09AD52431F9E1D0C0 /* RecognitionDetailScreen.swift */,
+				498935F0AC346BE5AD27DD80 /* RecognitionDistributionCard.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		653A2B3769BB180728AD1021 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F2B484B5CD17103B348D2 /* BottomSheetCancelButton.swift */,
+				7488E2F668A4094B1372C1E4 /* BottomSheetContainer.swift */,
+				74CB696A3940761FAA377DB6 /* BottomSheetHeader.swift */,
+				DCA2338193FBE777C4CA2550 /* FigureSymbolView.swift */,
+				C01C8FDCBAFA903848835E06 /* ImageImportFactory.swift */,
+				7A27A50055033FEE2A3A0C4C /* MetadataRow.swift */,
+				01A33C71275C9A90B024A08B /* RecognitionDistributionView.swift */,
+				13CACD53827DB8E354873371 /* RecognitionScoreRow.swift */,
+				76FC7B3EB2442C3D4E2C8ACE /* ResultActionButtons.swift */,
+				B5552AB5F1E794E41D6E2158 /* SelectedImageView.swift */,
+				B166179976704DE89CB1CDC6 /* SheetActionRow.swift */,
+				32AA7A5D35B4D63ECAD07055 /* TriangleShape.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		699DA4C47755CD753A56A0D1 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				18ED902142B05FF70ACDBCF2 /* BrainJSEngine.swift */,
+				F2C5D3EB090E5F2EF1C83F9E /* BrainNetwork.swift */,
+				BECD4F7EC4FE69DCB95F17EC /* FeatureExtractor.swift */,
+				29DC7D6B55E12316CFD190E7 /* FigureRecognizer.swift */,
+				1DE3FD2133A40343D5CAF8BD /* FixtureValidator.swift */,
+				D770FF842166AD3892E591ED /* ImagePreprocessor.swift */,
+				229B36B87C7B11D3F4E7D7AD /* ParallelFeatureExtractor.swift */,
+				182AA009384EE5EA3F2F466C /* SampleRasterizer.swift */,
+				229D357003BE230F5443CF42 /* TrainingDataset.swift */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		852604274285DA523A5EAA65 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				C3780CC4EF972BB3FF83FA83 /* circle-drawn-0.png */,
+				0B6E2733EDA99987F2B5F7CC /* circle-drawn-1.png */,
+				75F8094FE37C65BD9D0B60E6 /* circle-drawn-2.png */,
+				1B4840294A81E36CB0B25842 /* circle-drawn-3.png */,
+				49D52D054975F62C87E25D0C /* circle-drawn-4.png */,
+				7DB9799CEF21E1E3E1AAAC57 /* circle-filled-0.png */,
+				4E2144FBD5FDC7CD93537762 /* circle-filled-1.png */,
+				99D16AC0B14E84AD3F93BB27 /* circle-filled-2.png */,
+				30F41FF7675261C8051C6D8A /* circle-filled-3.png */,
+				7DB9F5FCDEA43C97552F867C /* circle-filled-4.png */,
+				CD0E13AD90F7BCF8DEFAA19E /* square-drawn-0.png */,
+				9BAE64EF6A8EAC38C29B24ED /* square-drawn-1.png */,
+				A1F76B38AF0830B88335F33D /* square-drawn-2.png */,
+				2090F805CD3736B6C4D08FC8 /* square-drawn-3.png */,
+				55DAE9C47A21B1A5BA3959C0 /* square-drawn-4.png */,
+				8D13BE4AAECBD3DD77D83D37 /* square-filled-0.png */,
+				2959D5BB641C6A27667D563D /* square-filled-1.png */,
+				8CC1791AB92DC53E9001CC95 /* square-filled-2.png */,
+				60701AE0E22938E50AA14F9C /* square-filled-3.png */,
+				E9586F01680EF38F264D56BE /* square-filled-4.png */,
+				02ECF4F70FF339623DDA0AC2 /* triangle-drawn-0.png */,
+				2CFC3D80119030446C9B7A41 /* triangle-drawn-1.png */,
+				708B75FDFC5F703456206B3E /* triangle-drawn-2.png */,
+				D695DEA0965B6088E1261AE9 /* triangle-drawn-3.png */,
+				FF7D57885CF08C362D082DCB /* triangle-drawn-4.png */,
+				2E87F4BE63DF0722DDDF0A2A /* triangle-filled-0.png */,
+				6D342BB5741A426DC2BF8FA9 /* triangle-filled-1.png */,
+				6D963E6176E094C5C46244BC /* triangle-filled-2.png */,
+				066FC9D8FB3396046140B266 /* triangle-filled-3.png */,
+				B2DC261B78AA66A02631DEB0 /* triangle-filled-4.png */,
+			);
+			name = Samples;
+			path = Figure/Resources/Samples;
+			sourceTree = "<group>";
+		};
+		AA54461A5022A2791F5A90B5 /* BrainJS */ = {
+			isa = PBXGroup;
+			children = (
+				416153BD0ADEDA356E2CE632 /* brain-browser.js */,
+			);
+			name = BrainJS;
+			path = Figure/Resources/BrainJS;
+			sourceTree = "<group>";
+		};
+		C9DAB0BDC6A1F53F7ECBC129 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				09AFD38E8767301200FF4324 /* OperationLog.swift */,
+				0405B099305E6671E0A45428 /* RecognitionHistoryCache.swift */,
+				7045A2C6CBA8A8DF606AC702 /* RecognitionStore.swift */,
+				C4512FBB7D2092E66C6E11F8 /* TrainingStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		CD3A567B3A999DB46DC8854B /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				A5A199F49D2CC7225F84A7BD /* AboutSheet.swift */,
+				976B8FF1CA7438FD0A2B57CF /* ImageInfoSheet.swift */,
+				4BE12D990D22D49122697043 /* ImageSourceSheet.swift */,
+				8A6F14CB4DA2D37DA38B31F1 /* RecognitionResultSheet.swift */,
+				7504ED0F86E870616923F100 /* RecognitionResultSummaryCard.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		DE21729AD5AD8BDB36E855A9 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				2C7013131126A39F3735498C /* BMPEncoder.swift */,
+				321D467A94889088F9DC6A14 /* RecognitionExportCard.swift */,
+				686AA5001A3DF946ED67C170 /* RecognitionExportModifier.swift */,
+				384256DBE51B86EAB6A8E6D3 /* RecognitionResultDocument.swift */,
+				13B425543D4797101773B8E9 /* RecognitionResultExporter.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		DEF6023B815290497A752B88 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE0391DA6F67E686EC25F9 /* AppTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		E3F439B1A0676AC4CF987E0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90C312B22D035EEC8F356722 /* calibration.json */,
+				F5337F16CC59F0F9666B5F3E /* fixtures.json */,
+				4F7FF0BB4F7C1D102BC84EA4 /* metrics.json */,
+				58B5EDA0EBB9C463C753FA29 /* model.json */,
+			);
+			name = Model;
+			path = Figure/Resources/Model;
+			sourceTree = "<group>";
+		};
+		EC28118E45B703C094B57393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13834B34B87C82C053C5222C /* FigureRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC29DBCB573FA5C3B017B2F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE21729AD5AD8BDB36E855A9 /* Export */,
+				55B2A78B52B098E9180FE20D /* History */,
+				2DCF4FE93AC7DAE4BFD2E6A6 /* Recognition */,
+				653A2B3769BB180728AD1021 /* Shared */,
+				CD3A567B3A999DB46DC8854B /* Sheets */,
+				47198621B5A32799D83C5FDC /* Training */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDB2E7C29524DA3D90B614AD = {
+			isa = PBXGroup;
+			children = (
+				E4F117D363AF14DE47D151EA /* Assets */,
+				AA54461A5022A2791F5A90B5 /* BrainJS */,
+				1DC8B9430D9A599C8B133B46 /* Figure */,
+				E3F439B1A0676AC4CF987E0C /* Model */,
+				852604274285DA523A5EAA65 /* Samples */,
+				EC28118E45B703C094B57393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF793B9544D62FBCD83D9944 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B42789898A59D892DAF0FFC2 /* ConfidenceText.swift */,
+				7C1BB8DEE2DA14608F4DCE5A /* ExportFormat.swift */,
+				D3CB25AD780B58B8D2587AEB /* FigureClass.swift */,
+				E225ABB2A40C4C7B6066EDBB /* InputMode.swift */,
+				0823D01D7240FE222551F1B1 /* RecognitionRecord.swift */,
+				BE8554F3741C1C2CEFBF77DB /* RecognitionRoute.swift */,
+				6BD56BC3B03972DAEFC57F38 /* RecognitionScore.swift */,
+				D00C4E00D0E348A6FE92A233 /* SelectedImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DE924A1E9FDBDAFA5BAFCE /* FigureRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE16961210CB124AC0814DD2 /* Build configuration list for PBXNativeTarget "FigureRecognition" */;
+			buildPhases = (
+				0A6710EC1724BD670939FCE7 /* Sources */,
+				1990023439E905BF08940087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FigureRecognition;
+			packageProductDependencies = (
+			);
+			productName = FigureRecognition;
+			productReference = 13834B34B87C82C053C5222C /* FigureRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6090DB2A3B4084E33A33150E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A4DE924A1E9FDBDAFA5BAFCE = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1CF0C563A9F7B6CA6D7F51F /* Build configuration list for PBXProject "FigureRecognition" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EDB2E7C29524DA3D90B614AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC28118E45B703C094B57393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DE924A1E9FDBDAFA5BAFCE /* FigureRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1990023439E905BF08940087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095318963A64130F3845115B /* Assets in Resources */,
+				26E73F778EB864752DBCC820 /* brain-browser.js in Resources */,
+				169F8F06D1A1CC23E72C3077 /* calibration.json in Resources */,
+				769D8533BE266F43E205BC4F /* circle-drawn-0.png in Resources */,
+				EBA2386EFE8B9C02BC5815A0 /* circle-drawn-1.png in Resources */,
+				C4F74D3E3E45FAF30FC947C5 /* circle-drawn-2.png in Resources */,
+				47BC7ED7D82155A4B21D8847 /* circle-drawn-3.png in Resources */,
+				74D46A8791674368184A805D /* circle-drawn-4.png in Resources */,
+				7318D71A89443BCEAFF77275 /* circle-filled-0.png in Resources */,
+				2D3924533FFE5C07C9C5BCF5 /* circle-filled-1.png in Resources */,
+				F47696D9F8AD4E737C536500 /* circle-filled-2.png in Resources */,
+				82C3664159C03A23CC68A956 /* circle-filled-3.png in Resources */,
+				7C6FD2485ABBFB052256CCDE /* circle-filled-4.png in Resources */,
+				B818D186CD197EB3C86D91C5 /* fixtures.json in Resources */,
+				909AE0BB9373F6505B56AEF4 /* metrics.json in Resources */,
+				91B240C47F7342C691582DE8 /* model.json in Resources */,
+				54166E84485B2D6A4114C6DB /* square-drawn-0.png in Resources */,
+				87404447183DCE5D6D59B6DB /* square-drawn-1.png in Resources */,
+				54F257F9F38123D5FBED7306 /* square-drawn-2.png in Resources */,
+				2261708C1234970EC1CA732F /* square-drawn-3.png in Resources */,
+				CB9CAFC8C233A748CC2AAE40 /* square-drawn-4.png in Resources */,
+				820FAB942C72B71EE471D73A /* square-filled-0.png in Resources */,
+				BB8753784B3B2C66A9D32BA0 /* square-filled-1.png in Resources */,
+				BC44B2B780C0A85826573424 /* square-filled-2.png in Resources */,
+				B1243B10C1327A61B83C54E8 /* square-filled-3.png in Resources */,
+				791B535B6D69A80C3853104C /* square-filled-4.png in Resources */,
+				DEFE298C4237C902610A5743 /* triangle-drawn-0.png in Resources */,
+				8031E8E77112520A776BA48B /* triangle-drawn-1.png in Resources */,
+				774EFF8CA0A217CDAD6E34CF /* triangle-drawn-2.png in Resources */,
+				4AB78D28FA4B46D679AD86A6 /* triangle-drawn-3.png in Resources */,
+				D18678FC8B8782033C1CC455 /* triangle-drawn-4.png in Resources */,
+				AC423A2105AA514901825E4F /* triangle-filled-0.png in Resources */,
+				C2FDCF9806F1145E22793B19 /* triangle-filled-1.png in Resources */,
+				49F7F71C41115D9A1D77CAF7 /* triangle-filled-2.png in Resources */,
+				7FEEA3D8E68C8C4B24CF52C5 /* triangle-filled-3.png in Resources */,
+				903564C383447A59C923AD2A /* triangle-filled-4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6710EC1724BD670939FCE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9665EF132D30B1A2EACE6AF /* AboutSheet.swift in Sources */,
+				44E5F57D84A6B6692C74635E /* AppTheme.swift in Sources */,
+				8AD04E155084A9724688CFDB /* BMPEncoder.swift in Sources */,
+				8E4544EFE7F3F970AC68608C /* BottomSheetCancelButton.swift in Sources */,
+				0B702A9EF291A99A1AFD73F6 /* BottomSheetContainer.swift in Sources */,
+				D29F9FA4D26E931861EBBD65 /* BottomSheetHeader.swift in Sources */,
+				E2F6B956AF7680434F788EF4 /* BrainJSEngine.swift in Sources */,
+				D21FC1C7C743BE0919517B47 /* BrainNetwork.swift in Sources */,
+				80616122C274A77A8CCA27D1 /* ConfidenceText.swift in Sources */,
+				39B9767B6DB9B5BFD44ABE34 /* CustomImageOptionCard.swift in Sources */,
+				2240558D7CCF59AF4C45E28F /* DetailSectionTitle.swift in Sources */,
+				F1333048C91BDEB03789AF22 /* EmptyImagePreviewView.swift in Sources */,
+				2F9762616F0116D4060B78D5 /* ExportFormat.swift in Sources */,
+				B678D6F4EF129DDE585C7094 /* FeatureExtractor.swift in Sources */,
+				AF1C8265C7E9614CBA39F9EC /* FigureClass.swift in Sources */,
+				B87A0BA62F652DA9C9DDBB29 /* FigureRecognitionApp.swift in Sources */,
+				FF653132041A36CE19364820 /* FigureRecognizer.swift in Sources */,
+				E15734BF1519617B0017AE9A /* FigureSymbolView.swift in Sources */,
+				B1E30337706698B4E8D9A5D4 /* FileDetailsCard.swift in Sources */,
+				B4FB9619A079640A0DF51877 /* FileMetadataView.swift in Sources */,
+				38CFA410C97E600728C09385 /* FixtureValidator.swift in Sources */,
+				5DB4778252CD171FFF07325F /* FullScreenImageView.swift in Sources */,
+				7D069FB3C7C09E10D35C6EE8 /* HistoryRow.swift in Sources */,
+				0B27FE608BD9645187C2DC83 /* HistoryScreen.swift in Sources */,
+				2559BAFDD44DB2BDA91B8550 /* ImageImportFactory.swift in Sources */,
+				3171F7AF0E0E3D14097786D2 /* ImageInfoSheet.swift in Sources */,
+				1BCB5668CF21EA5756E728F1 /* ImagePreprocessor.swift in Sources */,
+				FAFD3D65F095644502557F42 /* ImagePreviewCard.swift in Sources */,
+				0C0393F4E4F44066019750C4 /* ImageSourceSheet.swift in Sources */,
+				9756CF1A4772582D09A609EC /* InputMode.swift in Sources */,
+				42AEE4F77837CD968FEAF5AB /* InputModePicker.swift in Sources */,
+				8E7CF2D07271C138C2E3FCA9 /* LogScreen.swift in Sources */,
+				282FBB68D69EE1205403F809 /* MetadataRow.swift in Sources */,
+				519BBB9A6AEFF3CEDEE2C135 /* NetworkInputGridView.swift in Sources */,
+				1AC76781AE36F52C8FACBD6D /* OperationLog.swift in Sources */,
+				7A5380CC088659ADFFC41E1A /* ParallelFeatureExtractor.swift in Sources */,
+				DFEBA7B9BDD5400BCE63053A /* QuickExamplesRow.swift in Sources */,
+				676E8489F918A301234F0B44 /* RecognitionDateLabel.swift in Sources */,
+				A2035DCF8AF0B186F94A135F /* RecognitionDestinationView.swift in Sources */,
+				26BAB0F9142A8F60AA107EF9 /* RecognitionDetailActions.swift in Sources */,
+				39CE1D05FCBF38767133EC59 /* RecognitionDetailScreen.swift in Sources */,
+				7D97C6F9DD28D53EAF7B504A /* RecognitionDetailsCard.swift in Sources */,
+				392B069F707D962E45EA5B97 /* RecognitionDistributionCard.swift in Sources */,
+				C3F02ACF7B051C5DAFD0BC30 /* RecognitionDistributionView.swift in Sources */,
+				5BC2B8F8F3A780585AC94918 /* RecognitionExportCard.swift in Sources */,
+				8EE0D60EA35F4914B2353A8D /* RecognitionExportModifier.swift in Sources */,
+				B26F657B517057F7E38C8CF2 /* RecognitionHistoryCache.swift in Sources */,
+				4C5224A761A83406C6681FB8 /* RecognitionOverlaysView.swift in Sources */,
+				669F7A42F3F3E908D79EAFEB /* RecognitionRecord.swift in Sources */,
+				09F212532CDE31881D07F2B7 /* RecognitionResultDocument.swift in Sources */,
+				4FD8817B32C6D9FDBC55F12C /* RecognitionResultExporter.swift in Sources */,
+				6BA390B9D97D714CB585E2A5 /* RecognitionResultSheet.swift in Sources */,
+				5ED815D0F69AB72C11DD5031 /* RecognitionResultSummaryCard.swift in Sources */,
+				5CF310F5373B0878CD74D990 /* RecognitionRoute.swift in Sources */,
+				6046AE1B27466300A0169C27 /* RecognitionScore.swift in Sources */,
+				B7550C55A8C59A4AEE884182 /* RecognitionScoreRow.swift in Sources */,
+				DD5EBFFE676C520BBAE2B471 /* RecognitionScreen.swift in Sources */,
+				B66C554431000E222368D3DF /* RecognitionStore.swift in Sources */,
+				8544EC9D7F76C6DDD5D40F78 /* RecognizeButton.swift in Sources */,
+				CF9FA4925B2D2E2030777C5A /* ResultActionButtons.swift in Sources */,
+				C676713C3393C8A4A633DD3D /* SampleOptionCard.swift in Sources */,
+				B5766294F52CE602A37F9199 /* SampleRasterizer.swift in Sources */,
+				3A085D17FA960CB893697771 /* SelectedImage.swift in Sources */,
+				CEE70D387C0F63595B400FAE /* SelectedImageView.swift in Sources */,
+				1B632629E3679CBF5B886296 /* SheetActionRow.swift in Sources */,
+				CDA0067BC49E8E790E100EFF /* TrainingDataset.swift in Sources */,
+				18D6A9AC129DD8D2F09C579A /* TrainingScreen.swift in Sources */,
+				F18E406599EF0D33EA6FD6B9 /* TrainingStore.swift in Sources */,
+				062ECE7F8EB53B79BDCBC8FE /* TriangleShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39803BB56CF0CD3456907517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Розпізнавання";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Доступ потрібен, щоб вибрати зображення для розпізнавання.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiia.FigureRecognition;
+				PRODUCT_NAME = "Розпізнавання";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3E884435E7B5D4DC4456CFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E33201DAE8CDD6DA911A6EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Розпізнавання";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Доступ потрібен, щоб вибрати зображення для розпізнавання.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiia.FigureRecognition;
+				PRODUCT_NAME = "Розпізнавання";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E7BB7E72FBFE4C8D12316284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE16961210CB124AC0814DD2 /* Build configuration list for PBXNativeTarget "FigureRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39803BB56CF0CD3456907517 /* Debug */,
+				E33201DAE8CDD6DA911A6EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1CF0C563A9F7B6CA6D7F51F /* Build configuration list for PBXProject "FigureRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BB7E72FBFE4C8D12316284 /* Debug */,
+				3E884435E7B5D4DC4456CFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6090DB2A3B4084E33A33150E /* Project object */;
+}

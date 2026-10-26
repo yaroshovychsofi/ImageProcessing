@@ -1,0 +1,42 @@
+name: FigureRecognition
+options:
+  bundleIdPrefix: com.sofiia
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: YES
+targets:
+  FigureRecognition:
+    type: application
+    platform: iOS
+    sources:
+      - path: Figure
+        excludes:
+          - Resources
+      - path: Figure/Resources/Model
+        buildPhase: resources
+      - path: Figure/Resources/Samples
+        buildPhase: resources
+      - path: Figure/Resources/BrainJS
+        buildPhase: resources
+      - path: Figure/Resources/Assets
+        type: folder
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sofiia.FigureRecognition
+        PRODUCT_NAME: "Розпізнавання"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Розпізнавання"
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Доступ потрібен, щоб вибрати зображення для розпізнавання."
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+    scheme:
+      testTargets: []

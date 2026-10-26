@@ -1,0 +1,14 @@
+{
+  "method": "temperature scaling of sigmoid logits, softmax output",
+  "temperature": 3.554570350683618,
+  "fittedOn": "validation split",
+  "calibrationError": {
+    "validation": 0.0012704209457157394,
+    "test": 0.00984083217158735
+  },
+  "calibrationErrorBefore": {
+    "validation": 0.018527539372597223,
+    "test": 0.02847651890768963
+  },
+  "generatedAt": "2026-10-04T21:04:29.040Z"
+}

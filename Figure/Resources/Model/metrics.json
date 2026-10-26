@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-10-04T20:47:21.523Z",
+  "dataset": {
+    "sources": [
+      "Four Shapes (Kaggle smeschke/four-shapes, CC0)",
+      "Hand-drawn Shapes (Kaggle frobert/handdrawn-shapes-hds-dataset, CC BY 4.0)"
+    ],
+    "classes": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "perClassPerSource": 2400,
+    "augmentedRatio": 1,
+    "training": 18106,
+    "validation": 4426,
+    "test": 5184,
+    "note": "the hand-drawn source is split by author, so validation authors are unseen"
+  },
+  "network": {
+    "inputs": 69,
+    "hiddenLayers": [
+      8
+    ],
+    "activation": "sigmoid",
+    "learningRate": 0.1,
+    "momentum": 0.9,
+    "iterations": 1200,
+    "errorThresh": 0.0005,
+    "logPeriod": 25,
+    "evaluateEvery": 25,
+    "patience": 6,
+    "perClass": 2400,
+    "useCache": false,
+    "library": "brain.js 2.0.0-beta.24"
+  },
+  "calibration": {
+    "method": "temperature scaling on validation logits",
+    "temperature": 3.554806949310791,
+    "validationNllBefore": 0.23261683131683017,
+    "validationNllAfter": 0.08627922166430342
+  },
+  "training": {
+    "iterations": 500,
+    "bestIteration": 350,
+    "earlyStopping": "weights taken from the best validation score, not the last iteration",
+    "error": 0.001336469544915559,
+    "seconds": 15.56,
+    "history": [
+      {
+        "iterations": 25,
+        "error": 0.0035737660262734504,
+        "validationAccuracy": 0.9708540442837776
+      },
+      {
+        "iterations": 50,
+        "error": 0.0031262256360414,
+        "validationAccuracy": 0.9633981021238138
+      },
+      {
+        "iterations": 75,
+        "error": 0.003193613534356164,
+        "validationAccuracy": 0.9785359240849526
+      },
+      {
+        "iterations": 100,
+        "error": 0.0025483134471208377,
+        "validationAccuracy": 0.9746949841843651
+      },
+      {
+        "iterations": 125,
+        "error": 0.0019923704396648937,
+        "validationAccuracy": 0.9778581111613195
+      },
+      {
+        "iterations": 150,
+        "error": 0.00205016368623237,
+        "validationAccuracy": 0.9767284229552643
+      },
+      {
+        "iterations": 175,
+        "error": 0.0021229329877724907,
+        "validationAccuracy": 0.9780840488025305
+      },
+      {
+        "iterations": 200,
+        "error": 0.0020634341107105235,
+        "validationAccuracy": 0.9776321735201084
+      },
+      {
+        "iterations": 225,
+        "error": 0.00214753566854873,
+        "validationAccuracy": 0.9789877993673746
+      },
+      {
+        "iterations": 250,
+        "error": 0.002043759851829923,
+        "validationAccuracy": 0.9762765476728423
+      },
+      {
+        "iterations": 275,
+        "error": 0.001895762742599031,
+        "validationAccuracy": 0.9774062358788974
+      },
+      {
+        "iterations": 300,
+        "error": 0.0015096079686659917,
+        "validationAccuracy": 0.9765024853140534
+      },
+      {
+        "iterations": 325,
+        "error": 0.0015783488002036386,
+        "validationAccuracy": 0.9787618617261635
+      },
+      {
+        "iterations": 350,
+        "error": 0.0020165965117219698,
+        "validationAccuracy": 0.9801174875734298
+      },
+      {
+        "iterations": 375,
+        "error": 0.0015044645041171587,
+        "validationAccuracy": 0.9785359240849526
+      },
+      {
+        "iterations": 400,
+        "error": 0.0016335293099230164,
+        "validationAccuracy": 0.9798915499322187
+      },
+      {
+        "iterations": 425,
+        "error": 0.00181744915668527,
+        "validationAccuracy": 0.9778581111613195
+      },
+      {
+        "iterations": 450,
+        "error": 0.0019099326431988486,
+        "validationAccuracy": 0.9776321735201084
+      },
+      {
+        "iterations": 475,
+        "error": 0.0012459635815182167,
+        "validationAccuracy": 0.9798915499322187
+      },
+      {
+        "iterations": 500,
+        "error": 0.001336469544915559,
+        "validationAccuracy": 0.9783099864437416
+      }
+    ]
+  },
+  "accuracy": {
+    "training": 0.9971832541698884,
+    "validation": 0.9801174875734298,
+    "validationClean": 0.9810212381382738,
+    "validationAugmented": 0.9792137370085856,
+    "validationGenerated": 1,
+    "validationHandDrawn": 0.9555106167846309,
+    "test": 0.9699074074074074,
+    "testGenerated": 1,
+    "testHandDrawn": 0.9398148148148148
+  },
+  "confusion": {
+    "labels": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "validation": [
+      [
+        1435,
+        31,
+        2
+      ],
+      [
+        18,
+        1461,
+        15
+      ],
+      [
+        10,
+        12,
+        1442
+      ]
+    ],
+    "training": [
+      [
+        6031,
+        11,
+        0
+      ],
+      [
+        13,
+        5976,
+        7
+      ],
+      [
+        7,
+        13,
+        6048
+      ]
+    ]
+  }
+}

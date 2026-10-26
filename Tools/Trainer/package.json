@@ -1,0 +1,16 @@
+{
+  "name": "figure-recognition-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Brain.js trainer for the FigureRecognition iOS app (lab 2, variant 5)",
+  "scripts": {
+    "datasets": "./download-datasets.sh",
+    "train": "node train.js",
+    "evaluate": "node evaluate.js",
+    "cross-validate": "node crossvalidate.js"
+  },
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.24"
+  }
+}
